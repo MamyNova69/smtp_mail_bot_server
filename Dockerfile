@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-MAINTAINER Remi C
-
 RUN apt update \
 && apt upgrade -y
 
