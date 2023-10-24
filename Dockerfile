@@ -19,3 +19,5 @@ COPY main.py /home/smtp
 EXPOSE 25
 
 WORKDIR /home/smtp
+
+CMD ["python3", "main.py"]
